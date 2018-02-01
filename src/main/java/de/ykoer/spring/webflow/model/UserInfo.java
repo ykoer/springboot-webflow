@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 public class UserInfo implements Serializable {
 
-	private int infoId;
-
 	private String fullName;
 
 	private String country;
@@ -17,14 +15,6 @@ public class UserInfo implements Serializable {
 	private User user;
 	
 	public UserInfo(){}
-
-	public int getInfoId() {
-		return infoId;
-	}
-
-	public void setInfoId(int infoId) {
-		this.infoId = infoId;
-	}
 
 	public String getFullName() {
 		return fullName;
